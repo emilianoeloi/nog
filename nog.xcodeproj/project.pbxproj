@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC40A4C42569BED100399532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40A4C32569BED100399532 /* AppDelegate.swift */; };
+		AC40A4C62569BED100399532 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40A4C52569BED100399532 /* SceneDelegate.swift */; };
+		AC40A4C82569BED100399532 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40A4C72569BED100399532 /* ContentView.swift */; };
+		AC40A4CA2569BED300399532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC40A4C92569BED300399532 /* Assets.xcassets */; };
+		AC40A4CD2569BED300399532 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC40A4CC2569BED300399532 /* Preview Assets.xcassets */; };
+		AC40A4D02569BED300399532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC40A4CE2569BED300399532 /* LaunchScreen.storyboard */; };
+		AC40A4DB2569BED300399532 /* nogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40A4DA2569BED300399532 /* nogTests.swift */; };
+		AC40A4E62569BED300399532 /* nogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40A4E52569BED300399532 /* nogUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC40A4D72569BED300399532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC40A4B82569BED100399532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC40A4BF2569BED100399532;
+			remoteInfo = nog;
+		};
+		AC40A4E22569BED300399532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC40A4B82569BED100399532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC40A4BF2569BED100399532;
+			remoteInfo = nog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC40A4C02569BED100399532 /* nog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC40A4C32569BED100399532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC40A4C52569BED100399532 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC40A4C72569BED100399532 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC40A4C92569BED300399532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC40A4CC2569BED300399532 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC40A4CF2569BED300399532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC40A4D12569BED300399532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC40A4D62569BED300399532 /* nogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC40A4DA2569BED300399532 /* nogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nogTests.swift; sourceTree = "<group>"; };
+		AC40A4DC2569BED300399532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC40A4E12569BED300399532 /* nogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC40A4E52569BED300399532 /* nogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nogUITests.swift; sourceTree = "<group>"; };
+		AC40A4E72569BED300399532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC40A4BD2569BED100399532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC40A4D32569BED300399532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC40A4DE2569BED300399532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC40A4B72569BED100399532 = {
+			isa = PBXGroup;
+			children = (
+				AC40A4C22569BED100399532 /* nog */,
+				AC40A4D92569BED300399532 /* nogTests */,
+				AC40A4E42569BED300399532 /* nogUITests */,
+				AC40A4C12569BED100399532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC40A4C12569BED100399532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC40A4C02569BED100399532 /* nog.app */,
+				AC40A4D62569BED300399532 /* nogTests.xctest */,
+				AC40A4E12569BED300399532 /* nogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC40A4C22569BED100399532 /* nog */ = {
+			isa = PBXGroup;
+			children = (
+				AC40A4C32569BED100399532 /* AppDelegate.swift */,
+				AC40A4C52569BED100399532 /* SceneDelegate.swift */,
+				AC40A4C72569BED100399532 /* ContentView.swift */,
+				AC40A4C92569BED300399532 /* Assets.xcassets */,
+				AC40A4CE2569BED300399532 /* LaunchScreen.storyboard */,
+				AC40A4D12569BED300399532 /* Info.plist */,
+				AC40A4CB2569BED300399532 /* Preview Content */,
+			);
+			path = nog;
+			sourceTree = "<group>";
+		};
+		AC40A4CB2569BED300399532 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC40A4CC2569BED300399532 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC40A4D92569BED300399532 /* nogTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC40A4DA2569BED300399532 /* nogTests.swift */,
+				AC40A4DC2569BED300399532 /* Info.plist */,
+			);
+			path = nogTests;
+			sourceTree = "<group>";
+		};
+		AC40A4E42569BED300399532 /* nogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC40A4E52569BED300399532 /* nogUITests.swift */,
+				AC40A4E72569BED300399532 /* Info.plist */,
+			);
+			path = nogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC40A4BF2569BED100399532 /* nog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC40A4EA2569BED300399532 /* Build configuration list for PBXNativeTarget "nog" */;
+			buildPhases = (
+				AC40A4BC2569BED100399532 /* Sources */,
+				AC40A4BD2569BED100399532 /* Frameworks */,
+				AC40A4BE2569BED100399532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nog;
+			productName = nog;
+			productReference = AC40A4C02569BED100399532 /* nog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC40A4D52569BED300399532 /* nogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC40A4ED2569BED300399532 /* Build configuration list for PBXNativeTarget "nogTests" */;
+			buildPhases = (
+				AC40A4D22569BED300399532 /* Sources */,
+				AC40A4D32569BED300399532 /* Frameworks */,
+				AC40A4D42569BED300399532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC40A4D82569BED300399532 /* PBXTargetDependency */,
+			);
+			name = nogTests;
+			productName = nogTests;
+			productReference = AC40A4D62569BED300399532 /* nogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC40A4E02569BED300399532 /* nogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC40A4F02569BED300399532 /* Build configuration list for PBXNativeTarget "nogUITests" */;
+			buildPhases = (
+				AC40A4DD2569BED300399532 /* Sources */,
+				AC40A4DE2569BED300399532 /* Frameworks */,
+				AC40A4DF2569BED300399532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC40A4E32569BED300399532 /* PBXTargetDependency */,
+			);
+			name = nogUITests;
+			productName = nogUITests;
+			productReference = AC40A4E12569BED300399532 /* nogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC40A4B82569BED100399532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					AC40A4BF2569BED100399532 = {
+						CreatedOnToolsVersion = 12.1.1;
+					};
+					AC40A4D52569BED300399532 = {
+						CreatedOnToolsVersion = 12.1.1;
+						TestTargetID = AC40A4BF2569BED100399532;
+					};
+					AC40A4E02569BED300399532 = {
+						CreatedOnToolsVersion = 12.1.1;
+						TestTargetID = AC40A4BF2569BED100399532;
+					};
+				};
+			};
+			buildConfigurationList = AC40A4BB2569BED100399532 /* Build configuration list for PBXProject "nog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC40A4B72569BED100399532;
+			productRefGroup = AC40A4C12569BED100399532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC40A4BF2569BED100399532 /* nog */,
+				AC40A4D52569BED300399532 /* nogTests */,
+				AC40A4E02569BED300399532 /* nogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC40A4BE2569BED100399532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC40A4D02569BED300399532 /* LaunchScreen.storyboard in Resources */,
+				AC40A4CD2569BED300399532 /* Preview Assets.xcassets in Resources */,
+				AC40A4CA2569BED300399532 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC40A4D42569BED300399532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC40A4DF2569BED300399532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC40A4BC2569BED100399532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC40A4C42569BED100399532 /* AppDelegate.swift in Sources */,
+				AC40A4C62569BED100399532 /* SceneDelegate.swift in Sources */,
+				AC40A4C82569BED100399532 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC40A4D22569BED300399532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC40A4DB2569BED300399532 /* nogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC40A4DD2569BED300399532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC40A4E62569BED300399532 /* nogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC40A4D82569BED300399532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC40A4BF2569BED100399532 /* nog */;
+			targetProxy = AC40A4D72569BED300399532 /* PBXContainerItemProxy */;
+		};
+		AC40A4E32569BED300399532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC40A4BF2569BED100399532 /* nog */;
+			targetProxy = AC40A4E22569BED300399532 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC40A4CE2569BED300399532 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC40A4CF2569BED300399532 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC40A4E82569BED300399532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC40A4E92569BED300399532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC40A4EB2569BED300399532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"nog/Preview Content\"";
+				DEVELOPMENT_TEAM = 5ZFLG4EDBU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = nog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.emilianoeloi.nog.nog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC40A4EC2569BED300399532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"nog/Preview Content\"";
+				DEVELOPMENT_TEAM = 5ZFLG4EDBU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = nog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.emilianoeloi.nog.nog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC40A4EE2569BED300399532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZFLG4EDBU;
+				INFOPLIST_FILE = nogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.emilianoeloi.nog.nogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nog.app/nog";
+			};
+			name = Debug;
+		};
+		AC40A4EF2569BED300399532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZFLG4EDBU;
+				INFOPLIST_FILE = nogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.emilianoeloi.nog.nogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nog.app/nog";
+			};
+			name = Release;
+		};
+		AC40A4F12569BED300399532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZFLG4EDBU;
+				INFOPLIST_FILE = nogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.emilianoeloi.nog.nogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nog;
+			};
+			name = Debug;
+		};
+		AC40A4F22569BED300399532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZFLG4EDBU;
+				INFOPLIST_FILE = nogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.emilianoeloi.nog.nogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC40A4BB2569BED100399532 /* Build configuration list for PBXProject "nog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC40A4E82569BED300399532 /* Debug */,
+				AC40A4E92569BED300399532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC40A4EA2569BED300399532 /* Build configuration list for PBXNativeTarget "nog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC40A4EB2569BED300399532 /* Debug */,
+				AC40A4EC2569BED300399532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC40A4ED2569BED300399532 /* Build configuration list for PBXNativeTarget "nogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC40A4EE2569BED300399532 /* Debug */,
+				AC40A4EF2569BED300399532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC40A4F02569BED300399532 /* Build configuration list for PBXNativeTarget "nogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC40A4F12569BED300399532 /* Debug */,
+				AC40A4F22569BED300399532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC40A4B82569BED100399532 /* Project object */;
+}
