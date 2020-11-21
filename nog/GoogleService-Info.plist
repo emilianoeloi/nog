@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>74080076785-ro15j9t19modk9bs32kuovrphdigt6qr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.74080076785-ro15j9t19modk9bs32kuovrphdigt6qr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBQ1YfyqMGmje-dx2Zo3QTEp_XDk2QgzaE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>74080076785</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>br.com.emilianoeloi.nog</string>
+	<key>PROJECT_ID</key>
+	<string>emilianoeloi-f7a44</string>
+	<key>STORAGE_BUCKET</key>
+	<string>emilianoeloi-f7a44.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:74080076785:ios:eee55677795b3ca304ba50</string>
+	<key>DATABASE_URL</key>
+	<string>https://emilianoeloi-f7a44.firebaseio.com</string>
+</dict>
+</plist>
