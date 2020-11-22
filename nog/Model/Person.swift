@@ -7,7 +7,11 @@
 
 import Foundation
 
-struct Person {
+struct PeopleResponse: Codable {
+    let people: [Person]
+}
+
+struct Person: Codable {
     var name: String
     var born: String
     var nationality: String

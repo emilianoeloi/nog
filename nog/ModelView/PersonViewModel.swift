@@ -7,8 +7,11 @@
 
 import SwiftUI
 
-struct PersonViewModel {
-    var person: Person
+struct PersonViewModel: Identifiable {
+    
+    let id =  UUID()
+    
+    let person: Person
     
     init(person: Person) {
         self.person = person

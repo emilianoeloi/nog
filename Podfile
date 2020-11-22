@@ -13,6 +13,7 @@ target 'nog' do
   # For example, to use Firebase Authentication and Cloud Firestore
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
+  pod 'FirebaseFirestoreSwift'
 
   target 'nogTests' do
     inherit! :search_paths

@@ -4,4 +4,4 @@ setup:
 install:
 	bundle exec pod install
 update:
-	bundle exec pod udpate
+	bundle exec pod update
