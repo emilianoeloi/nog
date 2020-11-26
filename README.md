@@ -3,7 +3,7 @@ nog app
 
 # Alerta
 
-Os arquivos ***Info.plist*** e ***GloboService-Info.plist*** precisa ser criado.
+Os arquivos ***Info.plist*** e ***GloboService-Info.plist*** precisam ser criados.
 
 # Referências
 
