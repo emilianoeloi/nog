@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3CF2E064A415F59445148EC6 /* Pods_nog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D015B9DCBBB5B79FCC8130 /* Pods_nog.framework */; };
+		AC08BD5B2A9BE78D0065F352 /* PersonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08BD5A2A9BE78D0065F352 /* PersonDetailView.swift */; };
 		AC40A4C42569BED100399532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40A4C32569BED100399532 /* AppDelegate.swift */; };
 		AC40A4C62569BED100399532 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40A4C52569BED100399532 /* SceneDelegate.swift */; };
 		AC40A4C82569BED100399532 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40A4C72569BED100399532 /* ContentView.swift */; };
@@ -54,6 +55,7 @@
 		7AD684187EA8413EB1D42689 /* Pods-nogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nogTests.release.xcconfig"; path = "Target Support Files/Pods-nogTests/Pods-nogTests.release.xcconfig"; sourceTree = "<group>"; };
 		91EE4D2FE89D4BA1A1245A39 /* Pods-nog-nogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nog-nogUITests.debug.xcconfig"; path = "Target Support Files/Pods-nog-nogUITests/Pods-nog-nogUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9CD75197C1B5D5D53FA31CED /* Pods-nog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nog.release.xcconfig"; path = "Target Support Files/Pods-nog/Pods-nog.release.xcconfig"; sourceTree = "<group>"; };
+		AC08BD5A2A9BE78D0065F352 /* PersonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailView.swift; sourceTree = "<group>"; };
 		AC40A4C02569BED100399532 /* nog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC40A4C32569BED100399532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC40A4C52569BED100399532 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				AC40A50C2569C9F300399532 /* PersonView.swift */,
+				AC08BD5A2A9BE78D0065F352 /* PersonDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -482,6 +485,7 @@
 			files = (
 				AC40A4C42569BED100399532 /* AppDelegate.swift in Sources */,
 				AC40A5082569C8EC00399532 /* PersonViewModel.swift in Sources */,
+				AC08BD5B2A9BE78D0065F352 /* PersonDetailView.swift in Sources */,
 				AC40A5D32569F33300399532 /* FirebaseService.swift in Sources */,
 				AC40A4C62569BED100399532 /* SceneDelegate.swift in Sources */,
 				AC40A50D2569C9F300399532 /* PersonView.swift in Sources */,

@@ -6,12 +6,14 @@
 //
 
 import Foundation
+import Combine
 
 struct PeopleResponse: Codable {
     let people: [Person]
 }
 
-struct Person: Codable {
+struct Person: Codable, Identifiable {
+    var id = UUID()
     var name: String
     var born: String
     var nationality: String

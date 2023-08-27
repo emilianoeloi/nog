@@ -1,5 +1,11 @@
-# [WIP] nog
-nog app
+# Nog
+
+Nog App
+
+### Pré-requisitos
+
+- Xcode 14+
+- iOS 14+
 
 # Alerta
 

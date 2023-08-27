@@ -6,16 +6,12 @@
 //
 
 import SwiftUI
+import Combine
+import FirebaseFirestore
+import FirebaseFirestoreSwift
 
-struct PersonViewModel: Identifiable {
-    
-    let id =  UUID()
-    
-    let person: Person
-    
-    init(person: Person) {
-        self.person = person
-    }
+class PersonViewModel: ObservableObject {
+    @Published var person: Person
     
     var name: String {
         return person.name
@@ -31,5 +27,9 @@ struct PersonViewModel: Identifiable {
     
     var photoURL: String {
         return person.photoURL
+    }
+    
+    init(person: Person) {
+        self.person = person
     }
 }
